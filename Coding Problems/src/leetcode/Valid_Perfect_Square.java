@@ -1,6 +1,7 @@
 package leetcode;
 
 public class Valid_Perfect_Square {
+	//https://leetcode.com/problems/valid-perfect-square/
     public static boolean isPerfectSquare(int num) {
         if(num < 0) return false;
         if(num == 0) return true;
