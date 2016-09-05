@@ -50,12 +50,7 @@ public class Sudoku_Solver {
     						{'.','.','.','.','.','.','.','.','6'},
     						{'.','.','.','2','7','5','9','.','.'}};
     	solveSudoku(board);
-    	for(char[] bd : board){
-    		for(char c : bd){
-    			System.out.print(c+" ");
-    		}
-    		System.out.println();
-    	}
+    	Utilis.printArray(board);
     }
     
 }
