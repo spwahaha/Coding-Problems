@@ -1,10 +1,15 @@
 package leetcode;
 
 public class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
+	public int val;
+	public TreeNode left;
+	public TreeNode right;
+	public boolean marked;
 	public TreeNode(int val){
 		this.val = val;
+	}
+	
+	public String toString(){
+		return this.val + "";
 	}
 }

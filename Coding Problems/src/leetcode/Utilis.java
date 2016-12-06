@@ -3,6 +3,12 @@ package leetcode;
 public class Utilis {
 	public static void printArray(int[] nums){
 		for(int num : nums) System.out.print(num + " ");
+		System.out.println();
+	}
+	
+	public static void printArray(char[] nums){
+		for(char num : nums) System.out.print(num + ",");
+		System.out.println();
 	}
 	
 	public static void printArray(int[][] nums){
@@ -27,5 +33,9 @@ public class Utilis {
     		node = node.next;
     	}
     	return head;
+	}
+	
+	public static boolean validateBST(TreeNode root){
+		return ValidateBST.isValidBST(root);
 	}
 }

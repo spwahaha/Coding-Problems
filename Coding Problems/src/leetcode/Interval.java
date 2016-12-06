@@ -1,8 +1,8 @@
 package leetcode;
 
 public class Interval {
-	int start;
-	int end;
+	public int start;
+	public int end;
 	public Interval(){
 		start = 0;
 		end = 0;
